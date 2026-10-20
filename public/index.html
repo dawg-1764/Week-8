@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mood board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>~ journal ~ </h1>
+  <!-- container for input & buttons -->
+  <section class="row">
+    <input id="title-input" placeholder="Title">
+    <input id="date-input" type="date">
+  </section>
+  <section class="container">
+    <textarea id="entry-input" placeholder="What's on your mind today?"></textarea>
+    <button id="entry-submit">Save Entry</button>
+  </section>
+
+  <section class="container">
+    <h2>mood log</h2>
+    <div id="feed"></div>
+  </section>
+  <script src="app.js"></script>
+</body>
+
+</html>
